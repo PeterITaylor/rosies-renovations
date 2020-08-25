@@ -1,13 +1,5 @@
-
-/*   
-  @media (prefers-reduced-motion: no-preference) {
-    .App-logo {
-      animation: App-logo-spin infinite 15s linear;
-    }
-}  */
-  
   .App-header {
-    background-color: #f2e2bf;
+    background-color: black;
     height: 100px;
     width: 100%;
     display: flex;
@@ -15,12 +7,12 @@
     align-items: center;
     justify-content: space-evenly;
     font-size: calc(30px + 2vmin);
-    color: cadetblue;
+    color: white;
   }
 
   .App-header a {
     font-size: calc(20px + 2vmin);
-    color: cadetblue;
+    color: white;
   }
 
   .logo-button {
