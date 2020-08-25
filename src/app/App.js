@@ -8,6 +8,7 @@ import { Cabinets } from '../pages/services/cabinets';
 import { Flooring } from '../pages/services/flooring';
 import { Painting } from '../pages/services/painting';
 import { Tiling } from '../pages/services/tiling';
+import { Recommendations } from '../pages/recommendations';
 
 export const App = () => {
 
@@ -22,6 +23,7 @@ export const App = () => {
             <Route path="/flooring" component={Flooring} />
             <Route path="/painting" component={Painting} />
             <Route path="/tiling" component={Tiling} />
+            <Route path="/recomendations" component={Recommendations} />
           </Switch>
         </Page>
       </div>

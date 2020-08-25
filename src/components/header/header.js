@@ -10,7 +10,7 @@ export const Header = ({children}) => {
             Rosie's Renovations
             {children}
             <Link to="/">Home </Link>
-            <Link to="/comments">Comments </Link>
+            <Link to="/recommendations">Recommendations </Link>
         </header>
     )
 }
