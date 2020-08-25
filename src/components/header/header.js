@@ -1,5 +1,4 @@
 import React from 'react';
-import logo from '../../assets/logo.svg';
 import './header.css'
 import { Link, useHistory } from 'react-router-dom';
 
@@ -8,10 +7,11 @@ export const Header = ({children}) => {
 
     return (
         <header className='App-header'>
+            Rosie's Renovations
             {children}
             <Link to="/">Home </Link>
-            <Link to="/about">About </Link>
-            <Link to="/shop">Shop </Link>
+            <Link to="/contact">Contact Us </Link>
+            <Link to="/comments">Comments </Link>
         </header>
     )
 }

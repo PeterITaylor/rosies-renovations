@@ -1,9 +1,9 @@
-.about {
+.contact {
     display: flex;
     width: 100vw;
-    height: 100vh;
+    flex-grow: 1;
+    flex-shrink: 1;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: #eeeeee;
 }
