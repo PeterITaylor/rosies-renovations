@@ -3,8 +3,11 @@ import './App.css';
 import { Page } from '../components/page';
 import { BrowserRouter, Route, Switch } from 'react-router-dom';
 import { Home } from '../pages/home';
-import { Contact } from '../pages/contact';
 import { Comments } from '../pages/comments';
+import { Cabinets } from '../pages/services/cabinets';
+import { Flooring } from '../pages/services/flooring';
+import { Painting } from '../pages/services/painting';
+import { Tiling } from '../pages/services/tiling';
 
 export const App = () => {
 
@@ -14,8 +17,11 @@ export const App = () => {
         <Page>
           <Switch>
             <Route path="/" component={Home} exact />
-            <Route path="/contact" component={Contact} />
             <Route path="/comments" component={Comments} />
+            <Route path="/cabinets" component={Cabinets} />
+            <Route path="/flooring" component={Flooring} />
+            <Route path="/painting" component={Painting} />
+            <Route path="/tiling" component={Tiling} />
           </Switch>
         </Page>
       </div>

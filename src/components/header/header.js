@@ -10,7 +10,6 @@ export const Header = ({children}) => {
             Rosie's Renovations
             {children}
             <Link to="/">Home </Link>
-            <Link to="/contact">Contact Us </Link>
             <Link to="/comments">Comments </Link>
         </header>
     )
