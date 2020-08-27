@@ -4,7 +4,7 @@ import './tiling.css'
 export const Tiling = ({children}) => {
     return (
         <div className='tiling'>
-            Grout        
+            tiling
         </div>
     )
 }
