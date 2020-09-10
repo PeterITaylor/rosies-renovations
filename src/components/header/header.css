@@ -1,5 +1,5 @@
 .App-header {
-  background-color: black;
+  background-color: #e9e9e9 ;
   height: 100px;
   width: 100%;
   display: flex;
@@ -7,12 +7,12 @@
   align-items: center;
   justify-content: space-evenly;
   font-size: calc(20px + 2vmin);
-  color: white;
+  color: #3F2E2D;
 }
 
 .App-header a {
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: #3F2E2D;
   text-decoration: none;
 }
 
